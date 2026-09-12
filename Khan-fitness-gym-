@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khan Fitness Gym - Get Fit, Stay Healthy!</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1000&q=80');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            padding: 80px 20px;
+            border-bottom: 4px solid #ff3e3e;
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            color: #ff3e3e;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #dddddd;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+
+        .section {
+            background-color: #1e1e1e;
+            margin-bottom: 25px;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+        }
+
+        h2 {
+            color: #ff3e3e;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 8px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            background-color: #2a2a2a;
+            margin: 10px 0;
+            padding: 12px 15px;
+            border-left: 4px solid #ff3e3e;
+            border-radius: 4px;
+        }
+
+        .timing-box {
+            background: #2a2a2a;
+            padding: 15px;
+            border-radius: 6px;
+            margin-top: 10px;
+        }
+
+        .cta-btn {
+            display: block;
+            width: 100%;
+            max-width: 300px;
+            margin: 30px auto 10px auto;
+            padding: 15px;
+            background-color: #25d366;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border-radius: 50px;
+            box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+            transition: 0.3s;
+        }
+
+        .cta-btn:hover {
+            background-color: #1ebc57;
+            transform: scale(1.03);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #777;
+            font-size: 0.9rem;
+            border-top: 1px solid #222;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Khan Fitness Gym</h1>
+        <p>Get Fit, Stay Healthy!</p>
+    </header>
+
+    <div class="container">
+        
+        <div class="section">
+            <h2>About Us</h2>
+            <p>Humare paas modern machinery, certified trainers, aur full AC environment hai. Aapki fitness journey ko aasan aur effective banana humari pehli tarjeeh hai.</p>
+        </div>
+
+        <div class="section">
+            <h2>Our Services</h2>
+            <ul>
+                <li>💪 Weight Loss Program</li>
+                <li>🏋️ Muscle Building</li>
+                <li>🎯 Personal Training</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Gym Timings</h2>
+            <div class="timing-box">
+                <p><strong>Morning:</strong> 6:00 AM - 11:00 AM</p>
+                <p style="margin-top: 8px;"><strong>Evening:</strong> 4:00 PM - 10:00 PM</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Location</h2>
+            <p>📍 Main Market, Gulberg, Lahore.</p>
+        </div>
+
+        <a href="https://wa.me/923001234567?text=Assalam-o-Alaikum,%20mujhe%20Gym%20membership%20ke%20baare%20mein%20info%20chahiye" class="cta-btn" target="_blank">
+            💬 Contact on WhatsApp
+        </a>
+
+    </div>
+
+    <footer>
+        <p>&copy; Khan Fitness Gym. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
